@@ -1,7 +1,13 @@
 <?php
 
-// change the following paths if necessary
-$yiic=dirname(__FILE__).'/../../_includes/yii-1.1.14/framework/yiic.php';
-$config=dirname(__FILE__).'/config/console.php';
+// set environment
+require_once(dirname(__FILE__) . '/extensions/yii-environment/Environment.php');
+$env = new Environment();
 
-require_once($yiic);
+// run Yii app
+$config = $env->configConsole;
+require_once($env->yiicPath);
+
+// Want to execute runYiiStatics()? Modify yiic.php
+// AFTER: require_once(dirname(__FILE__).'/yii.php');
+// ADD: $env->runYiiStatics();

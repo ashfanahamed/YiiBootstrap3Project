@@ -1,10 +1,11 @@
 <?php
 
-// change the following paths if necessary
-$yiit=dirname(__FILE__).'/../../../_includes/yii-1.1.14/framework/yiit.php';
-$config=dirname(__FILE__).'/../config/test.php';
+// set environment
+require_once(dirname(__FILE__) . '/../../protected/extensions/yii-environment/Environment.php');
+$env = new Environment('TEST'); //override mode
 
-require_once($yiit);
+// run Yii app
+require_once($env->yiitPath);
 require_once(dirname(__FILE__).'/WebTestCase.php');
-
-Yii::createWebApplication($config);
+$env->runYiiStatics(); // like Yii::setPathOfAlias()
+Yii::createWebApplication($env->configWeb);

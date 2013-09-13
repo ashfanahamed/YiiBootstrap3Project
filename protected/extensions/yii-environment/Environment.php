@@ -300,6 +300,7 @@ class Environment
 			if ($mode === false)
 				throw new Exception('"Environment mode cannot be determined, see class for instructions.');
 		}
+
 		return $mode;
 	}
 
