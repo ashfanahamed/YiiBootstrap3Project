@@ -1,0 +1,62 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+/**
+ * Table styles.
+ */
+.table .sort-link {
+    color: #333;
+}
+
+/**
+ * Dropdown
+ */
+ul.nav li.dropdown-hover:hover > ul.dropdown-menu {
+    display: block;
+}
+
+/*
+ * Callouts
+ */
+.bs-callout {
+    margin: 0px 0px 20px 0px;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #eee;
+}
+.bs-callout h4 {
+    margin-top: 0;
+}
+.bs-callout ul {
+    font-weight: normal;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+    background-color: #fff;
+}
+
+/* Variations */
+.bs-callout-danger {
+    background-color: #fcf2f2;
+    border-color: #dFb5b4;
+}
+.bs-callout-danger ul {
+    color: #B94A48;
+}
+.bs-callout-warning {
+    background-color: #fefbed; /*FCF8E3*/
+    border-color: #f1e7bc; /*C09853*/
+}
+.bs-callout-info {
+    background-color: #f0f7fd;
+    border-color: #d0e3f0;
+}
+.bs-callout-success {
+    background-color: #eeffe7;
+    border-color: #D6E9C6;
+}
