@@ -1,0 +1,18 @@
+body {
+    padding-top: 30px;
+    background-color: #fff;
+}
+
+/**
+ * Navigation bar styles.
+ */
+.navbar .container a.white {
+    color: white;
+}
+
+/**
+ * Layout styles.
+ */
+.admin-template {
+    padding-top: 40px;
+}
