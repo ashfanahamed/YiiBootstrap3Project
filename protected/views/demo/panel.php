@@ -1,10 +1,11 @@
 <?php
-/* @var $this DemoController */
 
-$this->pageTitle = 'Panel demos';
+/**
+ * @var $this DemoController
+ */
+
+$this->pageTitle = 'Panels and Callouts demo';
 ?>
-<link href="http://getbootstrap.com/assets/css/pygments-manni.css" rel="stylesheet">
-
 <div class="row">
     <div class="col-md-4">
         <?php $this->beginWidget('BootstrapPanel', array('title' => 'Default panel')); ?>
@@ -75,5 +76,4 @@ HTML;
             echo BHtml::encode($html);
             ?></pre>
     </div>
-</div><script src="http://platform.twitter.com/widgets.js"></script>
-<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+</div>

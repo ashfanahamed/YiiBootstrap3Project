@@ -8,9 +8,9 @@
 return array(
 
 	// Set yiiPath (relative to Environment.php)
-	'yiiPath' => dirname(__FILE__) . '/../../../_includes/yii-1.1.14/framework/yii.php',
+	/*'yiiPath' => dirname(__FILE__) . '/../../../_includes/yii-1.1.14/framework/yii.php',
 	'yiicPath' => dirname(__FILE__) . '/../../../_includes/yii-1.1.14/framework/yiic.php',
-	'yiitPath' => dirname(__FILE__) . '/../../../_includes/yii-1.1.14/framework/yiit.php',
+	'yiitPath' => dirname(__FILE__) . '/../../../_includes/yii-1.1.14/framework/yiit.php',*/
 
 	// Set YII_DEBUG and YII_TRACE_LEVEL flags
 	'yiiDebug' => true,
@@ -36,7 +36,7 @@ return array(
         'import'=>array(
             'application.models.*',
             'application.components.*',
-            'webroot.themes.bootstrap3.views.widgets.*',
+            'ext.bootstrap3.widgets.*',
         ),
 
         // Set witch theme you want to use
@@ -82,12 +82,12 @@ return array(
                         'levels'=>'error, warning',
                     ),
                     // uncomment the following to show log messages on web pages
-                    /*
-                    array(
-                        'class'=>'CWebLogRoute',
-                    ),
-                    */
                 ),
+                /*
+                array(
+                    'class'=>'CWebLogRoute',
+                ),
+                */
             ),
         ),
 

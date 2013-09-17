@@ -11,10 +11,10 @@
 
 return array(
 
-	// Set yiiPath (relative to Environment.php)
-	//'yiiPath' => dirname(__FILE__) . '/../../../yii/framework/yii.php',
-	//'yiicPath' => dirname(__FILE__) . '/../../../yii/framework/yiic.php',
-	//'yiitPath' => dirname(__FILE__) . '/../../../yii/framework/yiit.php',
+    // Set yiiPath (relative to Environment.php)
+    'yiiPath' => dirname(__FILE__) . '/../../../_includes/yii-1.1.14/framework/yii.php',
+    'yiicPath' => dirname(__FILE__) . '/../../../_includes/yii-1.1.14/framework/yiic.php',
+    'yiitPath' => dirname(__FILE__) . '/../../../_includes/yii-1.1.14/framework/yiit.php',
 
 	// Set YII_DEBUG and YII_TRACE_LEVEL flags
 	'yiiDebug' => true,
@@ -37,7 +37,7 @@ return array(
                 'password'=>'123456',
                 // If removed, Gii defaults to localhost only. Edit carefully to taste.
                 'ipFilters'=>array('192.168.0.*','::1'),
-                'generatorPaths' => array('webroot.themes.bootstrap3.views.gii')
+                'generatorPaths' => array('ext.bootstrap3.gii')
             ),
 		),
 

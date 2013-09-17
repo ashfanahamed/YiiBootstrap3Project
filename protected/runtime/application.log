@@ -1089,3 +1089,2234 @@ in /var/www/YiiBootstrap3Project/index.php (16)
 2013/09/14 00:46:55 [trace] [system.CModule] Loading "clientScript" application component
 in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
 in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [error] [php] include(BootstrapLoginForm.php): failed to open stream: No such file or directory (/var/www/_includes/yii-1.1.14/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWidgetFactory.php(146): import()
+#1 /var/www/_includes/yii-1.1.14/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#2 /var/www/_includes/yii-1.1.14/framework/web/CBaseController.php(189): SiteController->createWidget()
+#3 /var/www/YiiBootstrap3Project/protected/views/site/login.php(15): SiteController->beginWidget()
+#4 /var/www/_includes/yii-1.1.14/framework/web/CBaseController.php(126): require()
+#5 /var/www/_includes/yii-1.1.14/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#6 /var/www/_includes/yii-1.1.14/framework/web/CController.php(869): SiteController->renderFile()
+#7 /var/www/_includes/yii-1.1.14/framework/web/CController.php(782): SiteController->renderPartial()
+#8 /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php(99): SiteController->render()
+#9 /var/www/_includes/yii-1.1.14/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#10 /var/www/_includes/yii-1.1.14/framework/web/CController.php(308): CInlineAction->runWithParams()
+#11 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#12 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/_includes/yii-1.1.14/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#14 /var/www/_includes/yii-1.1.14/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#15 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#16 /var/www/_includes/yii-1.1.14/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/_includes/yii-1.1.14/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#18 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(282): SiteController->run()
+#19 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#20 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /var/www/YiiBootstrap3Project/index.php(16): CWebApplication->run()
+REQUEST_URI=/YiiBootstrap3Project/site/login
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [error] [php] include(BootstrapLoginForm.php): failed to open stream: No such file or directory (/var/www/_includes/yii-1.1.14/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWidgetFactory.php(146): import()
+#1 /var/www/_includes/yii-1.1.14/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#2 /var/www/_includes/yii-1.1.14/framework/web/CBaseController.php(189): SiteController->createWidget()
+#3 /var/www/YiiBootstrap3Project/protected/views/site/login.php(15): SiteController->beginWidget()
+#4 /var/www/_includes/yii-1.1.14/framework/web/CBaseController.php(126): require()
+#5 /var/www/_includes/yii-1.1.14/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#6 /var/www/_includes/yii-1.1.14/framework/web/CController.php(869): SiteController->renderFile()
+#7 /var/www/_includes/yii-1.1.14/framework/web/CController.php(782): SiteController->renderPartial()
+#8 /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php(99): SiteController->render()
+#9 /var/www/_includes/yii-1.1.14/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#10 /var/www/_includes/yii-1.1.14/framework/web/CController.php(308): CInlineAction->runWithParams()
+#11 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#12 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/_includes/yii-1.1.14/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#14 /var/www/_includes/yii-1.1.14/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#15 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#16 /var/www/_includes/yii-1.1.14/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/_includes/yii-1.1.14/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#18 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(282): SiteController->run()
+#19 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#20 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /var/www/YiiBootstrap3Project/index.php(16): CWebApplication->run()
+REQUEST_URI=/YiiBootstrap3Project/site/login
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:21 [trace] [system.CModule] Loading "errorHandler" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:42 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:42 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:42 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:42 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:42 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:42 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:42 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:42 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:42 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:36:42 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:15 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:15 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:15 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:15 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:15 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:15 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:15 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:15 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:15 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:15 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:16 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:16 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:16 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:16 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:16 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:16 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:16 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:16 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:16 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:16 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:17 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:22 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:22 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:22 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:22 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:22 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:22 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:22 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:22 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:22 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:41:22 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:16 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:16 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:16 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:16 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:16 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:16 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:16 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:16 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:16 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:16 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:22 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:22 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:22 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:22 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:22 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:22 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:22 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:22 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:22 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:42:22 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ico".' in /var/www/_includes/yii-1.1.14/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CController.php(270): CController->missingAction('ico')
+#1 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(282): CController->run('ico')
+#2 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('site/ico/favico...')
+#3 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/YiiBootstrap3Project/site/ico/favicon.ico
+---
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ico".' in /var/www/_includes/yii-1.1.14/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CController.php(270): CController->missingAction('ico')
+#1 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(282): CController->run('ico')
+#2 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('site/ico/favico...')
+#3 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/YiiBootstrap3Project/site/ico/favicon.ico
+---
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "errorHandler" application component
+2013/09/17 20:44:06 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "user" application component
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "session" application component
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (45)
+2013/09/17 20:44:06 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (45)
+2013/09/17 20:44:08 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:08 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:08 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:08 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:08 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:08 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:08 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:08 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:08 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:08 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:40 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:40 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:40 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:40 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:40 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:41 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:41 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:41 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:41 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:41 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:41 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:41 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (15)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:41 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:41 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/site/login.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (99)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:42 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:42 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:42 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:42 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:42 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:42 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:42 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:42 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:42 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:42 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:42 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:42 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:42 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:43 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (10)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:43 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ico/favicon.ico".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('ico/favicon.ico')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/ico/favicon.ico
+---
+2013/09/17 20:44:43 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:43 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:43 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:43 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 20:44:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ico/favicon.ico".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('ico/favicon.ico')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/ico/favicon.ico
+---
+2013/09/17 20:44:43 [trace] [system.CModule] Loading "errorHandler" application component
+2013/09/17 20:44:43 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+2013/09/17 20:44:43 [trace] [system.CModule] Loading "user" application component
+2013/09/17 20:44:43 [trace] [system.CModule] Loading "session" application component
+2013/09/17 20:44:43 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (45)
+2013/09/17 20:44:43 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (45)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:31 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:34 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:35 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:35 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:35 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:35 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:35 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:35 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:35 [trace] [system.CModule] Loading "db" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:35 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:35 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:35 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:35 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:35 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:03:35 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:04:18 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:04:18 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:04:18 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:04:18 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:04:18 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:04:18 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:04:18 [trace] [system.CModule] Loading "db" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:04:18 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:04:18 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:04:18 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:04:18 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:04:18 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:04:18 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:09:54 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:09:54 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:09:54 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:09:54 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:09:54 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:09:54 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:09:54 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:09:54 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (10)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:09:54 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:09:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:09:58 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:09:58 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:09:58 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:09:58 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:09:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:09:58 [trace] [system.CModule] Loading "errorHandler" application component
+2013/09/17 21:09:58 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+2013/09/17 21:09:58 [trace] [system.CModule] Loading "user" application component
+2013/09/17 21:09:58 [trace] [system.CModule] Loading "session" application component
+2013/09/17 21:09:58 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:09:58 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:10:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:10:09 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:10:09 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:10:09 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:10:09 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:10:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:10:09 [trace] [system.CModule] Loading "errorHandler" application component
+2013/09/17 21:10:09 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+2013/09/17 21:10:09 [trace] [system.CModule] Loading "user" application component
+2013/09/17 21:10:09 [trace] [system.CModule] Loading "session" application component
+2013/09/17 21:10:09 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:10:09 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:10:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:10:52 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:10:52 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:10:52 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:10:52 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:10:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:10:52 [trace] [system.CModule] Loading "errorHandler" application component
+2013/09/17 21:10:52 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+2013/09/17 21:10:52 [trace] [system.CModule] Loading "user" application component
+2013/09/17 21:10:52 [trace] [system.CModule] Loading "session" application component
+2013/09/17 21:10:52 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:10:52 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:11:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:11:00 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:00 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:00 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:00 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:11:00 [trace] [system.CModule] Loading "errorHandler" application component
+2013/09/17 21:11:00 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+2013/09/17 21:11:00 [trace] [system.CModule] Loading "user" application component
+2013/09/17 21:11:00 [trace] [system.CModule] Loading "session" application component
+2013/09/17 21:11:00 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:11:00 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:11:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:11:14 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:14 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:14 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:14 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:11:14 [trace] [system.CModule] Loading "errorHandler" application component
+2013/09/17 21:11:14 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+2013/09/17 21:11:14 [trace] [system.CModule] Loading "user" application component
+2013/09/17 21:11:14 [trace] [system.CModule] Loading "session" application component
+2013/09/17 21:11:14 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:11:14 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:11:17 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:17 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:17 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:17 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:11:17 [trace] [system.CModule] Loading "errorHandler" application component
+2013/09/17 21:11:17 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+2013/09/17 21:11:17 [trace] [system.CModule] Loading "user" application component
+2013/09/17 21:11:17 [trace] [system.CModule] Loading "session" application component
+2013/09/17 21:11:17 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:11:17 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:11:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:11:22 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:22 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:22 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:22 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:11:22 [trace] [system.CModule] Loading "errorHandler" application component
+2013/09/17 21:11:22 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+2013/09/17 21:11:22 [trace] [system.CModule] Loading "user" application component
+2013/09/17 21:11:22 [trace] [system.CModule] Loading "session" application component
+2013/09/17 21:11:22 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:11:22 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:11:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:11:48 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:48 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:48 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:48 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:11:48 [trace] [system.CModule] Loading "errorHandler" application component
+2013/09/17 21:11:48 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+2013/09/17 21:11:48 [trace] [system.CModule] Loading "user" application component
+2013/09/17 21:11:48 [trace] [system.CModule] Loading "session" application component
+2013/09/17 21:11:48 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:11:48 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:11:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:11:55 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:55 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:55 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:55 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bela".' in /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('bela')
+#1 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiBootstrap3Project/bela
+---
+2013/09/17 21:11:55 [trace] [system.CModule] Loading "errorHandler" application component
+2013/09/17 21:11:55 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+2013/09/17 21:11:55 [trace] [system.CModule] Loading "user" application component
+2013/09/17 21:11:55 [trace] [system.CModule] Loading "session" application component
+2013/09/17 21:11:55 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:11:55 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:58 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (10)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ico".' in /var/www/_includes/yii-1.1.14/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CController.php(270): CController->missingAction('ico')
+#1 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(282): CController->run('ico')
+#2 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('demo/ico/favico...')
+#3 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/YiiBootstrap3Project/demo/ico/favicon.ico
+---
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:11:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ico".' in /var/www/_includes/yii-1.1.14/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CController.php(270): CController->missingAction('ico')
+#1 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(282): CController->run('ico')
+#2 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('demo/ico/favico...')
+#3 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/YiiBootstrap3Project/demo/ico/favicon.ico
+---
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "errorHandler" application component
+2013/09/17 21:11:58 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "user" application component
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "session" application component
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:11:58 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/SiteController.php (40)
+2013/09/17 21:20:39 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:39 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:39 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:40 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:40 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:40 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (10)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:40 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:48 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:48 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:48 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:48 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:48 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:48 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:48 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:48 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (10)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:20:48 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (25)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:21:10 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:21:10 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:21:10 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:21:10 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:21:10 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:21:10 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:21:10 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (20)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:21:10 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (20)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:22:42 [error] [php] Undefined variable: model (/var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php:18)
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CController.php(869): DemoController->renderFile()
+#1 /var/www/_includes/yii-1.1.14/framework/web/CController.php(782): DemoController->renderPartial()
+#2 /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php(20): DemoController->render()
+#3 /var/www/_includes/yii-1.1.14/framework/web/actions/CInlineAction.php(49): DemoController->actionLoginForm()
+#4 /var/www/_includes/yii-1.1.14/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilterChain.php(133): DemoController->runAction()
+#6 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/_includes/yii-1.1.14/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/_includes/yii-1.1.14/framework/web/filters/CInlineFilter.php(58): DemoController->filterAccessControl()
+#9 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/_includes/yii-1.1.14/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/_includes/yii-1.1.14/framework/web/CController.php(265): DemoController->runActionWithFilters()
+#12 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(282): DemoController->run()
+#13 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/YiiBootstrap3Project/index.php(16): CWebApplication->run()
+REQUEST_URI=/YiiBootstrap3Project/demo/loginForm
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (20)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:22:42 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:22:42 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:22:42 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:22:42 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:22:42 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:22:42 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:22:42 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (20)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:22:42 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (16)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (20)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:22:42 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (20)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:22:42 [error] [php] Undefined variable: model (/var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php:18)
+Stack trace:
+#0 /var/www/_includes/yii-1.1.14/framework/web/CController.php(869): DemoController->renderFile()
+#1 /var/www/_includes/yii-1.1.14/framework/web/CController.php(782): DemoController->renderPartial()
+#2 /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php(20): DemoController->render()
+#3 /var/www/_includes/yii-1.1.14/framework/web/actions/CInlineAction.php(49): DemoController->actionLoginForm()
+#4 /var/www/_includes/yii-1.1.14/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilterChain.php(133): DemoController->runAction()
+#6 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/_includes/yii-1.1.14/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/_includes/yii-1.1.14/framework/web/filters/CInlineFilter.php(58): DemoController->filterAccessControl()
+#9 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/_includes/yii-1.1.14/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/_includes/yii-1.1.14/framework/web/CController.php(265): DemoController->runActionWithFilters()
+#12 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(282): DemoController->run()
+#13 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/YiiBootstrap3Project/index.php(16): CWebApplication->run()
+REQUEST_URI=/YiiBootstrap3Project/demo/loginForm
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (20)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:22:42 [trace] [system.CModule] Loading "errorHandler" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (20)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:23:12 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:23:12 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:23:12 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:23:12 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:23:12 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:23:12 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:23:12 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:23:12 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (16)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:23:12 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:23:12 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:03 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:03 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:03 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:04 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:04 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:04 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:04 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:04 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (16)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:04 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:04 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:21 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:21 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:21 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:21 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:21 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:21 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:21 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (16)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:21 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:21 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:29 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:29 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:29 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:29 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:29 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:29 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:29 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:29 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (16)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:29 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:24:29 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (28)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:26:51 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:26:51 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:26:51 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:26:51 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:26:51 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:26:51 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:26:51 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:26:51 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (9)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:26:51 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:26:51 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:00 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:00 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:00 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:00 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:00 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:00 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:00 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:00 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (9)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:00 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:00 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:12 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:12 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:12 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:12 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:12 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:12 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:12 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:12 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (9)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:12 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:12 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:14 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:14 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:14 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:14 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:14 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:14 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:14 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (15)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:14 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (15)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:16 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:16 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:16 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:16 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:16 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:16 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:16 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:16 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:17 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:17 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:17 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:17 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:17 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:17 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:17 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (27)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (13)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (27)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:17 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (27)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:19 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:19 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:19 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:19 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:19 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:19 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:19 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (15)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:27:19 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (15)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:53 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:53 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:53 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:53 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:53 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:53 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:53 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (15)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:53 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (15)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:55 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:55 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:55 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:55 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:55 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:55 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:55 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:55 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (9)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:55 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:29:55 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:30:47 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:30:47 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:30:47 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:30:47 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:30:47 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:30:47 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:30:47 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:30:47 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (9)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:30:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:30:47 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:31:19 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:31:19 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:31:19 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:31:19 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:31:19 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:31:19 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:31:19 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:31:19 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (9)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:31:19 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:31:19 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (22)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:33:56 [error] [exception.CException] exception 'CException' with message 'CClientScript and its behaviors do not have a method or closure named "registerCssScript".' in /var/www/_includes/yii-1.1.14/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php(10): CComponent->__call('registerCssScri...', Array)
+#1 /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php(10): CClientScript->registerCssScript('http://getboots...')
+#2 /var/www/_includes/yii-1.1.14/framework/web/CController.php(306): DemoController->beforeAction(Object(CInlineAction))
+#3 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/_includes/yii-1.1.14/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /var/www/_includes/yii-1.1.14/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/_includes/yii-1.1.14/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/_includes/yii-1.1.14/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(282): CController->run('loginForm')
+#11 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('demo/loginForm')
+#12 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#14 {main}
+REQUEST_URI=/YiiBootstrap3Project/demo/loginForm
+HTTP_REFERER=http://webdev/YiiBootstrap3Project/demo/horizontalForm
+---
+2013/09/17 21:33:56 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:33:56 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:33:56 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:33:56 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:33:56 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:33:56 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:33:56 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:33:56 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:33:56 [error] [exception.CException] exception 'CException' with message 'CClientScript and its behaviors do not have a method or closure named "registerCssScript".' in /var/www/_includes/yii-1.1.14/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php(10): CComponent->__call('registerCssScri...', Array)
+#1 /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php(10): CClientScript->registerCssScript('http://getboots...')
+#2 /var/www/_includes/yii-1.1.14/framework/web/CController.php(306): DemoController->beforeAction(Object(CInlineAction))
+#3 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/_includes/yii-1.1.14/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /var/www/_includes/yii-1.1.14/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/_includes/yii-1.1.14/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/_includes/yii-1.1.14/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/_includes/yii-1.1.14/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(282): CController->run('loginForm')
+#11 /var/www/_includes/yii-1.1.14/framework/web/CWebApplication.php(141): CWebApplication->runController('demo/loginForm')
+#12 /var/www/_includes/yii-1.1.14/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/YiiBootstrap3Project/index.php(16): CApplication->run()
+#14 {main}
+REQUEST_URI=/YiiBootstrap3Project/demo/loginForm
+HTTP_REFERER=http://webdev/YiiBootstrap3Project/demo/horizontalForm
+---
+2013/09/17 21:33:56 [trace] [system.CModule] Loading "errorHandler" application component
+2013/09/17 21:33:56 [trace] [system.CModule] Loading "themeManager" application component
+2013/09/17 21:34:17 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:17 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:17 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:17 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:17 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:17 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:17 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:20 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:20 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:20 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:20 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:20 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:20 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:20 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:33 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:33 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:33 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:33 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:33 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:33 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:33 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:33 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (28)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:33 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (28)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:33 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (28)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:36 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:36 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:36 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:36 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:36 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:36 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:36 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:36 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (28)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:36 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (28)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:34:36 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (28)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:30 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:30 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:30 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:30 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:30 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:30 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:30 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:30 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (33)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:30 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (11)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (33)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:34 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:34 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:34 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:35 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:35 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:35 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:35 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:35 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (33)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:35 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (11)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (33)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:53 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:53 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:53 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:53 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:53 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:53 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:53 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:53 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (33)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:53 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (11)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (33)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:59 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:59 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:59 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:59 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:59 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:59 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:59 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:59 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (33)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:35:59 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (11)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (33)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:03 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:03 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:03 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:03 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:03 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:03 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:03 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:03 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (33)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (11)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (33)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:08 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:08 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:08 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:08 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:08 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:08 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:08 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:08 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (33)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:08 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (11)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (33)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:27 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:27 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:27 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:27 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:27 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:27 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:27 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:27 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (34)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:27 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (11)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (34)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:29 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:29 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:29 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:29 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:29 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:29 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:29 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:29 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:29 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:29 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:59 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:59 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:59 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:59 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:59 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:59 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:59 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:59 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (34)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:36:59 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (11)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (34)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:02 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:02 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:02 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:02 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:02 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:02 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:02 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:02 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (34)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:02 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (11)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (34)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:03 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:03 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:03 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:03 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:03 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:03 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:03 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:03 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:03 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:30 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:30 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:30 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:30 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:30 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:30 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:30 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:30 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:30 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:30 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:45 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:45 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:45 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:45 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:45 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:45 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:45 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:45 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:37:45 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:11 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:11 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:11 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:11 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:11 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:11 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:11 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:11 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:11 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:11 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:45 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:45 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:45 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:45 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:45 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:45 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:45 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:45 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:38:45 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:39:15 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:39:15 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:39:15 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:39:15 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:39:15 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:39:15 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:39:15 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:39:15 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:39:15 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:39:15 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:40:42 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:40:42 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:40:42 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:40:42 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:40:42 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:40:42 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:40:42 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:40:42 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:40:42 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:40:42 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:03 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:03 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:03 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:03 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:03 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:03 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:03 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:03 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:03 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:33 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:33 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:33 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:33 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:33 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:33 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:33 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:33 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (34)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:33 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/panel.php (11)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (34)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:45 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:45 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:45 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:45 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:45 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:45 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:45 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:45 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:41:45 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:39 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:39 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:39 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:39 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:39 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:39 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:39 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:39 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:39 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:41 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:41 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:41 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:41 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:41 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:41 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:41 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:41 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:41 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:47 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:47 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:47 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:47 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:47 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:47 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:47 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:47 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:42:47 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:43:35 [trace] [system.CModule] Loading "log" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:43:35 [trace] [system.CModule] Loading "request" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:43:35 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:43:35 [trace] [system.web.filters.CFilterChain] Running filter DemoController.filteraccessControl()
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:43:35 [trace] [system.CModule] Loading "user" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:43:35 [trace] [system.CModule] Loading "session" application component
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:43:35 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (10)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:43:35 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:43:35 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (17)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)
+2013/09/17 21:43:35 [trace] [system.CModule] Loading "messages" application component
+in /var/www/YiiBootstrap3Project/protected/views/demo/loginForm.php (18)
+in /var/www/YiiBootstrap3Project/protected/controllers/DemoController.php (29)
+in /var/www/YiiBootstrap3Project/index.php (16)

@@ -5,6 +5,13 @@ class DemoController extends Controller
     public $defaultAction = 'panel';
 
 
+    public function beforeAction()
+    {
+        Yii::app()->clientScript->registerCssFile('http://getbootstrap.com/assets/css/pygments-manni.css');
+        Yii::app()->clientScript->registerScriptFile('https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js');
+        return true;
+    }
+
 	public function actionGridView()
 	{
 		$this->render('gridView');
@@ -17,38 +24,13 @@ class DemoController extends Controller
 
 	public function actionLoginForm()
 	{
-		$this->render('loginForm');
+		$this->render('loginForm', array(
+            'model' => new LoginForm()
+        ));
 	}
 
 	public function actionPanel()
 	{
 		$this->render('panel');
 	}
-
-	// Uncomment the following methods and override them if needed
-	/*
-	public function filters()
-	{
-		// return the filter configuration for this controller, e.g.:
-		return array(
-			'inlineFilterName',
-			array(
-				'class'=>'path.to.FilterClass',
-				'propertyName'=>'propertyValue',
-			),
-		);
-	}
-
-	public function actions()
-	{
-		// return external action classes, e.g.:
-		return array(
-			'action1'=>'path.to.ActionClass',
-			'action2'=>array(
-				'class'=>'path.to.AnotherActionClass',
-				'propertyName'=>'propertyValue',
-			),
-		);
-	}
-	*/
 }
