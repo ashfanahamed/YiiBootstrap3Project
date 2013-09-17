@@ -1,2 +1,0 @@
-YiiBootstrap3Project
-====================
