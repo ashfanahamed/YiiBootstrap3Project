@@ -30,7 +30,7 @@ class AdminDemoController extends Controller
 	}
 
 	public function actionPanel()
-	{
+    {
 		$this->render('panel');
 	}
 }
