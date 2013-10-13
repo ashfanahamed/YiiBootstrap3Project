@@ -27,7 +27,7 @@ return array(
 	'configWeb' => array(
         'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
         'name' => 'Yii Bootstrap 3.0',
-        'defaultController' => 'demo',
+        'defaultController' => 'adminDemo',
 
         // preloading 'log' component
         'preload'=>array('log'),

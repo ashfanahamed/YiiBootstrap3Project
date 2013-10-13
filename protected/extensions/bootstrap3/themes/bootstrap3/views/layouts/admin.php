@@ -52,12 +52,12 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Forms <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo $this->createUrl('demo/horizontalForm'); ?>">Horizontal Form</a></li>
-                            <li><a href="<?php echo $this->createUrl('demo/loginForm'); ?>">Login Form</a></li>
+                            <li><a href="<?php echo $this->createUrl('adminDemo/horizontalForm'); ?>">Horizontal Form</a></li>
+                            <li><a href="<?php echo $this->createUrl('adminDemo/loginForm'); ?>">Login Form</a></li>
                         </ul>
                     </li>
-                    <li<?php if ('gridView' == $action) echo ' class="active"'; ?>><a href="<?php echo $this->createUrl('demo/gridView'); ?>">Grid View</a></li>
-                    <li<?php if ('panel' == $action)    echo ' class="active"'; ?>><a href="<?php echo $this->createUrl('demo/panel'); ?>">Panels and Callouts</a></li>
+                    <li<?php if ('gridView' == $action) echo ' class="active"'; ?>><a href="<?php echo $this->createUrl('adminDemo/gridView'); ?>">Grid View</a></li>
+                    <li<?php if ('panel' == $action)    echo ' class="active"'; ?>><a href="<?php echo $this->createUrl('adminDemo/panel'); ?>">Panels and Callouts</a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">

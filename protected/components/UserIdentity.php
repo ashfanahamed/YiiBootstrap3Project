@@ -10,7 +10,7 @@ class UserIdentity extends CUserIdentity
 	/**
 	 * Authenticates a user.
 	 * The example implementation makes sure if the username and password
-	 * are both 'demo'.
+	 * are both 'adminDemo'.
 	 * In practical applications, this should be changed to authenticate
 	 * against some persistent user identity storage (e.g. database).
 	 * @return boolean whether authentication succeeds.
@@ -19,7 +19,7 @@ class UserIdentity extends CUserIdentity
 	{
 		$users=array(
 			// username => password
-			'demo'=>'demo',
+			'adminDemo'=>'adminDemo',
 			'admin'=>'admin',
 		);
 		if(!isset($users[$this->username]))
