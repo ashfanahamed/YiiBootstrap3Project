@@ -1,7 +1,10 @@
 <?php
 
 /**
- * Local configuration override.
+ * This is a template for the local configuration override.
+ * 
+ * RENAME THIS FILE TO: local.php
+ * 
  * Use this to override elements in the config array (combined from main.php and mode_x.php)
  * NOTE: When using a version control system, do NOT commit this file to the repository.
  */
