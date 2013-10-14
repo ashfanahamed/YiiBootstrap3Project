@@ -14,3 +14,5 @@ defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL', $env->yiiTraceLevel);
 require_once($env->yiiPath);
 $env->runYiiStatics(); // like Yii::setPathOfAlias()
 Yii::createWebApplication($env->configWeb)->run();
+
+echo 'Hello World!';
